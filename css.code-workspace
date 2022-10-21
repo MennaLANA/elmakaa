@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../mennaproject/css"
+		},
+		{
+			"path": "../mennaproject/imges"
+		},
+		{
+			"path": "../mennaproject/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}

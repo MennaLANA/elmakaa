@@ -1,0 +1,403 @@
+
+* {
+   font-family: 'Lato', sans-serif,poppins;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+  }
+  
+
+header{
+
+  background: rgb(57, 47, 47);
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+    padding:10px 0px 10px 0px ;
+  margin: opx opx 10px 0px;
+}
+
+.logo
+{
+  float: right;
+  margin-right: 5%;
+  margin-left: 4%;
+  margin-top: 20px;
+}
+.logo.img
+{
+  width: 300px;
+    margin-left: 10px;
+}
+  
+
+  .navigation
+  {
+    padding-right: 20px;
+    align-items: center;
+
+  }
+.navigation a {
+  color:white;
+  text-decoration: none;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+.navigation a:hover{
+  color:gray ;
+}
+.nav-link
+{
+  color:white;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 200px;
+  padding-bottom: 20px;
+    margin: auto;
+}
+
+.login i
+{
+color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  margin: auto;
+
+}
+.badge-sucess
+{
+    background-color: green;
+  color: blanchedalmond;
+  border-radius: 10px;
+
+}
+
+
+section
+
+{
+  padding:100px 200px;
+}
+
+
+.hero
+{
+  background-color: gray;
+  min-height: 100vh;
+  display: flex;
+  align-items:center;
+  background:url(/img/Mint\ logo.png)no-repeat;
+  background-size:auto ;
+  background-position:left;
+  background-attachment: fixed;
+}
+  .hero h1{
+    color: white;
+    font-size:3em ;
+    font-weight: 700;
+    position: relative;
+
+
+ }
+ 
+
+  .hero h1 span {
+    display:  inline-block;
+    margin-top:5px;
+font-size: 1.4em; 
+font-weight:500;
+
+}
+.hero-btn
+ {
+  background-color: blueviolet;
+  color:white;
+  text-decoration: none;
+  font-size:1.1em;
+  font-weight: 500;
+  display:inline-block;
+  padding:o.9375em 2.187em;
+  letter-spacing: 1px;
+  border:blueviolet solid 15px;
+  margin-bottom: 40px;
+  transition: 0.75s ease;
+  
+ }
+ .hero-btn:hover{
+  
+  color: black;
+  transform:scaleX(1.1);
+
+ }
+
+  .hero-img
+{
+  width: 1oo%;
+  height: 150px;;
+  background-size: cover;
+  background-position: 35% 0%;
+  background-attachment: fixed;
+  padding-left: 50S%;
+  marging:auto;
+}
+
+
+  .qutation {
+    display: grid;
+  align-items:center;
+  background-size:auto ;
+  background-position:left;
+  }
+  
+  .qutation.qut-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .qut-section h4 {
+    color: black;
+    display: flex;
+    font-size: 1.6rem;
+     align-items: center;
+    font-weight:700 ;
+    padding:0 50 0 70;
+    margin-bottom: 2rem;
+  }
+  
+  .qut-section .pis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+  }
+  
+  .pis .pi {
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pi img {
+    margin-bottom: 1rem;
+  }
+  
+  .pi img:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
+  .pi h3 {
+    font-size: 1.6rem;
+  }
+  
+  /* contri-section*/
+.contri-section 
+{
+  background-color: rgb(127, 49, 204);
+  width: 100%;
+  display: grid;
+  align-items:center;
+  
+}
+  
+.contri-section h1{
+  
+    color: white;
+    font-size:3em ;
+    font-weight: 500;
+    position: relative;
+
+
+ }
+ 
+
+ .contri-section h1 span
+ {
+  color: rgba(255, 166, 0, 0.773);
+  display:  inline-block;
+    margin-top:5px;
+font-size: 1.4em; 
+font-weight:700;
+
+}
+.contri-btn
+ {
+  width: 10rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  background-color:whitesmoke;
+  text-decoration: none;
+  align-content: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cards {
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+}
+
+.cards .icon {
+  color: #3a6cf4;
+  font-size: 8em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3{
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+
+/* contact-section*/
+
+.cards contact
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.contact .info h3 {
+  color: #000;
+}
+
+.contact .info p {
+  font-size: 1.5em;
+}
+.footer {
+  background-color: gray;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+    padding:10px 0px 10px 0px ;
+  margin: opx opx 10px 0px;
+  text-decoration: none;
+
+ 
+}
+
+.footer-right {
+align-content: space-between;
+text-decoration: none;  
+font-size: 1.4em
+  font-weight: 800;
+}
+
+.footer-right span {
+  color: orange;
+}
+
+.footer .social-icons a{
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
+  }
+  .footer-title
+  {
+
+  }
+
+
+@media (max-width:1023px){
+  header{
+      padding: 12px 20px;
+  }
+
+  .navigation a{
+      padding-left: 10px;
+  }
+
+  .title{
+      font-size: 1.8em;
+  }
+
+  section{
+      padding: 80px 20px;
+  }
+
+  .main-content h2{
+      font-size: 1em;
+  }
+
+  .main-content h3{
+      font-size: 1.6em;
+  }
+
+  .content{
+      flex-direction: column;
+      align-items: center;
+  }
+
+}
+
+@media (max-width:641px){
+  body{
+      font-size: 12px;
+  }
+
+  .main-content h2{
+      font-size: 0.8em;
+  }
+
+  .main-content h3{
+      font-size: 1.4em;
+  }
+}
+
+@media (max-width:300px){
+  body{
+      font-size: 10px;
+   
+  }
+}
