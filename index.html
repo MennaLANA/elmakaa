@@ -3,117 +3,319 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="الموقع هو سوق اونلاين يساعدك على شراء ادوات البناء فى مصر بسهولة">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> elmawkaa</title>
+    <title>الموقع - سوق أونلاين لمواد البناء في مصر</title>
+    <!--website icon logo-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+     <!--slider library-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.min.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="js/script.js" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
   </head>
   <body>
-       <!-- Start header section -->
-       <header>
-        <a href="#" class="logo"></a>
-          <img src="img/logo.png"/>
-          <span  id="mawkaa"></span>
-        </a>
-        <nav class="navigation">
-          <a href="#">مواد البناء</a>
-           <a href="#">احدث الطلبيات</a>
-           <a href="#">كيف يعمل؟</a>
-           <a href="https://wuilt.com/blog/ar/https://elmawkaa.com/#joinasseller">سجل كمورد</a>
-           <a href="https://elmawkaa.com/Blog"> المدونة</a>
-          <a href="#">الباقات </a>
-          <a href="#">اتصل بنا </a>       
-        </nav>
-        <nav class="login">
-          <a    class="nav-link" href="https://elmawkaa.com/dashboardv2/auth/login/">
-            <i class="fas fa-user"></i>
-            تسجيل دخول
-            <span class="badge-sucess">جديد</span>
-         </a>
-        </nav>
-       </header>
+C       <header>
+                 <nav class="container">
+          <!--start nav-right-->
+          <div class="right">
+              <a href="index.html">
+                  <img src="img/logo.png" alt="logo">
+              </a>
+              <ul>
+                  <li><a href="#product">مواد بناء</a></li>
+                  <li><a href="#">أحدث الطلبيات</a></li>
+                  <li><a href="#about">كيف يعمل؟</a></li>
+                  <li><a href="#">سجل كمورد</a></li>
+                  <li><a href="#">المدونة</a></li>
+                  <li><a href="#">الباقات</a></li>
+                  <li><a href="#contact">اتصل بنا</a></li>
+              </ul>
+          </div>
+          <!--start nav-left-->
+          <div class="left">
+            <!--multi step-form-->
+              <a href="https://elmawkaa.com/dashboardv2/auth/login/" class="login"> 
+                <i class="fas fa-user"></i>
+                  تسجيل دخول
+                  <span>جديد</span>
+              </a>
+              <a href="#" class="place">
+                  <img src="img/egy.svg" alt="image">
+                  <i class="fa-solid fa-caret-down"></i>
+              </a>
+          </div>
+      </nav>
+  </header>
            
           <!-- HERO SECTION -->
-      <section class="hero">
+          <main>
+               
+            <section class="hero">
         
+              <div class="text">
+                <h1>تعبت من عملية شراء مواد البناء في مصر؟</h1>
+                <p>اطلب عروض أسعار دلوقتي أونلاين من أكبر قاعدة بيانات للموردين في مصر</p>
+                <a href="https://elmawkaa.com/bookCall" class="hero-btn">احجز مكالمة مع أحد خبرائنا</a>
 
-            <h1> تعبت من عملية شراء مواد البناء في مصر؟<br><span> اطلب عروض أسعار دلوقتي أونلاين من أكبر قاعدة بيانات للموردين في </span></h1>
-            <a href="#" class="hero-img"></a>
-          <img src="img/home-bg.jpg"/>
-                 
-            <a href="https://elmawkaa.com/bookCall" class="hero-btn">احجز مكالمة مع أحد خبرائنا</a>
-          
-                  
-      </section>
-       
+            </div>
+        </div>
+            
+           </section>
+         
+        </main>
+       <!--start section product-->
+       <section class="product" id="product">
+        <div class="container">
+            <h2>اطلب عروض أسعار لمواد البناء الآن</h2>
+            <div class="items">
+                <div class="item">
+                    <a href="form.html">
+                      <img src="img/fet1.jpg" /> alt="image">
+                        <div class="info">
+                            <h3>خرسانة جاهزة</h3>
+                            <div class="words">
+                                <span>قواعد</span>
+                                <span>أعمدة</span>
+                                <span>بلاطات</span>
+                                <span>أرضيات</span>
+                                <span>مقاوم</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="form.html">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>أسمنت معبأ</h3>
+                            <div class="words">
+                                <span>أسمنت السويس</span>
+                                <span>شكاير أسمنت</span>
+                                <span>شيكارة</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="form.html">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>أسمنت سايب</h3>
+                            <div class="words">
+                                <span>أسمنت السويس</span>
+                                <span>بني سويف</span>
+                                <span>السويدي</span>
+                                <span>حلوان</span>
+                                <span>الممتاز</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>حديد تسليح</h3>
+                            <div class="words">
+                                <span>عز</span>
+                                <span>المصريين</span>
+                                <span>العتال</span>
+                                <span>بشاي</span>
+                                <span>الدخيلة</span>
+                                <span>الكومي</span>
+                                <span>الجارحي</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>طوب أحمر طفلى مفرغ</h3>
+                            <div class="words">
+                                <span>طوب أحمر مفرغ</span>
+                                <span>طوبة مقاس عادي</span>
+                                <span>طوبة مقاس دوبل</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>طوب أسمنتي مصمت</h3>
+                            <div class="words">
+                                <span>نص آلي</span>
+                                <span>آلي</span>
+                                <span>أسمنتي مصمت</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>بلوك أسمنتي مفرغ</h3>
+                            <div class="words">
+                                <span>نص آلي</span>
+                                <span>آلي</span>
+                                <span>أسمنتي مفرغ</span>
+                                <span>بلوكات أسمنية</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>بلاط موزايكو </h3>
+                            <div class="words">
+                                <span>بلاط حصوة</span>
+                                <span>بلاط أسمنتي</span>
+                                <span>بلاط موزايكو</span>
+                                <span>بلاط تيرازو</span>
+                                <span>موزايكو بلدي</span>
+                                <span>بلاط كسر رخام</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet5.jpg" alt="image">
+                        <div class="info">
+                            <h3>بلاط انترلوك</h3>
+                            <div class="words">
+                                <span>بلاط انترلوك</span>
+                                <span>بلاط رصيف</span>
+                                <span>بلاط خرساني متداخل</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet5.jpg" alt="image">
+                        <div class="info">
+                            <h3>ألياف حديدية للخرسانة</h3>
+                            <div class="words">
+                                <span>Straight Fiber</span>
+                                <span>Hooked Fiber</span>
+                                <span>Stranded Fiber</span>
+                                <span>إضافات خرسانية</span>
+                                <span>استيل فايبر</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet4.jpg" alt="image">
+                        <div class="info">
+                            <h3>رمل</h3>
+                            <div class="words">
+                                <span>رمل خشن</span>
+                                <span>رمل حرش</span>
+                                <span>رمل خالي من المواد العضوية</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet3.jpg" alt="image">
+                        <div class="info">
+                            <h3>مواد كهربائية</h3>
+                            <div class="words">
+                                <span>لوحات توزيع الكهرباء</span>
+                                <span>إضاءة</span>
+                                <span>طاقة شمسية</span>
+                                <span>خراطيم الكهرباء</span>
+                                <span>مفاتيح اضاءة</span>
+                                <span>الأسلاك والكابلات</span>
+                                <span>أنظمة ذكية</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet1.jpg" alt="image">
+                        <div class="info">
+                            <h3>مواد سباكة</h3>
+                            <div class="words">
+                                <span>مواسير التغذية</span>
+                                <span>محابس</span>
+                                <span>الطلمبات</span>
+                                <span>مواسير الصرف الصحي</span>
+                                <span>البيب والجريليات</span>
+                                <span>العدادات والمقاييس</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="img/fet2.jpg" alt="image">
+                        <div class="info">
+                            <h3>مواد بناء أخرى</h3>
+                            <div class="words">
+                                <span>جبس</span>
+                                <span>قطاعات حديد</span>
+                                <span>إضاءة</span>
+                                <span>أبواب وشبابيك</span>
+                                <span>بلاط أرضيات وحوائط</span>
+                                <span>فايبر استيل...</span>
+                                <span>حديد</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
       <!-- qutation Section -->
-      <section class="qutation" >
-        <div class="qut-section">
-          <h4>اطلب عروض أسعار لمواد البناء الآن</h4>
-          <div class="pis">
-            <div class="pi">
-              <img src="img/fet1.jpg" />
-              <h3>خرسانة جاهزة</h3>
-              
-            </div>
-            <div class="pi">
-              <img src="img/fet2.jpg" />
-              <h3>أسمنت معبأ
-              </h3>
-            </div>
-            <div class="pi">
-              <img src="img/fet3.jpg" />
-              <h3>اسمنت سايب</h3>
-            </div>
-            <div class="pi">
-              <img src="img/fet4.jpg" />
-              <h3>حديد تسليح</h3>
-            </div>
-            <div class="pi">
-              <img src="img/fet5.jpg" />
-              <h3>طوب أحمر طفلى مفرغ</h3>
-            </div>
-            <div class="pi">
-              <img src="img/fet6.jpg" />
-              <h3>طوب أسمنتي مصمت</h3>
-              
-            </div>
+<!--start section about-->
+<section class="about" id="about">
+  <div class="container">
+      <h2>كيف تعمل منصة الموقع؟</h2>
+      <div class="about-box">
+          <div class="box">
+              <h4> <i class="fa-solid fa-check"></i>
+              اختار مواد البناء المطلوبة
+              </h4>
+              <img src="img/01-select-product (1).jpg" alt="image">
           </div>
-                 </div>
-      </section>
-            <!-- requests Section -->
+          <div class="box">
+              <h4><i class="fa-regular fa-gem"></i>
+              املأ البيانات واطلب عرض سعر</h4>
+              <img src="img/02-fill-form.jpg" alt="image">
+          </div>
+          <div class="box">
+              <h4><i class="fa-regular fa-paper-plane"></i>
+              اختار أحسن عرض ونفذ الطلبية</h4>
+              <img src="img/03-select-quotation.jpg" alt="image">
+          </div>
+      </div>
+      <div class="link">
+          <a href="#">خطوات طلب عروض الأسعار</a>
+      </div>
+  </div>
+</section>
+                                                <!--start slidershow-->
 
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          
             <div class="slideshow-container" style="background-color: #f0fdfa; width: 70%; height: 350px; padding: 30px; border-radius: 14px; ">
               <div class="mySlides ">
                     
@@ -183,70 +385,108 @@
                 </div>
             </div>
         </section>
-                      <!-- contri-section -->
+                      <!--start section partners-->
+        <section class="partners">
+          <h2>شركاؤنا</h2>
+          <p>شركاؤنا هم مصدر نجاحنا</p>
+          <div class="swiper">
+              <div class="swiper-wrapper">
+
+                                   <div class="swiper-slide">
+                      <div class="box">
+                          <img src="img/Suez-Cement-Logo.jpg" alt="image">
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="box">
+                          <img src="img/Mint logo.png" alt="image">
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="box">
+                          <img src="img/injaz logo.png" alt="image">
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="box">
+                          <img src="img/500 logo.png" alt="image">
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="box">
+                          <img src="img/Egypt Projects.png" alt="image">
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <div class="box">
+                          <img src="img/Eijad logo.png" alt="image">
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </section>                      <!-- contribt-section -->
+
+
 
         <section class="contri-section " >
+          <div class="container">
+            <div class="box">
+
           <h1>انضم الي قادة المقاولين  بمنصه الموقع<br><span>ووفر وقت وفلوس إدارة مشترياتك</span></h1>
                     <a href="https://elmawkaa.com/bookCall" class="contri-btn">احجز مكالمة   </a>
 
-        </section>
+                              
+                            </div>
+                        </div>
+                    </section>
           
                         <!--contacs cards -->
 
-          <section class="cards contact" id="contact">
-            <div class="content">
-              <div class="card">
-                <div class="icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <div class="info">
-                    <h3>البريد الكتروني</h3>
-                    
-                    <p>Info@elmawkaa.com</p>
+                        <section class="contact" id="contact">
+                          <div class="container">
+                              <div class="box">
+                                <i class="fas fa-envelope"></i>
+                                <h4>البريد الكتروني</h4>
+                                  <p>Info@elmawkaa.com</p>
+                              </div>
+                              <div class="box">
+                                <i class="fas fa-phone"></i>
+                                <h4>هاتف</h4>
+                                  <a href="tel:(+20) 100 282 0786">(+20) 100 282 0786</a>
+                              </div>
+                              <div class="box">
+                                <i class="fa-solid fa-location-pin"></i>
 
-                </div>
-            </div>
-                <div class="card">
-                    <div class="icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="info">
-                        <h3>هاتف</h3>
-                        <p>(+20) 100 282 0786</p>
-                    </div>
-                </div>
-              
-                <div class="card">
-                  <div class="icon">
-                    <i class="fa-solid fa-location-dot"></i>                               </div>
-                  <div class="info">
-                    <h3>مكاننا</h3>
-                    
-                    <p>- ١٧١ شارع التحرير مبني الحرم اليوناني بعابدين GrEEK Campus، القاهرة، مصر</p>
-
-                                  
-            </div>
-          </div>
-                 
-        </section>
+                                                                  <h4>مكاننا</h4>
+                                  <p>١٧١ شارع التحرير مبني الحرم اليوناني بعابدين GrEEK Campus، القاهرة، مصر</p>
+                                  <p>- 2035 Sunset Lake Road, Suite B-2, in the city of Newark, zip code 19702 and county of New Castle, USA</p>
+                              </div>
+                          </div>
+                      </section>
     <!-- Footer -->
-    <footer >
-      <footer >
-        <a   class="footer-right" href="https://elmawkaa.com/bookCall">
-          <span  id="sp">احجز مكالمة</span>
-          مع أحد خبرائنا
-       </a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-        </div>
-
-        <p class="footer-title">حقوق النشر 2022  جميع الحقوق محفوظة
-          @ <span>- Elmawkaa, Inc. |</span></p>
-        
-                                              
-      </footer>
+    <footer>
+      <div class="container">
+          <!--start footer-right-->
+          <div class="right">
+              <p>
+                  <a href="#">احجز مكالمة</a>
+                  مع أحد خبرائنا
+              </p>
+              <ul>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+          </div>
+          <!--end footer-right-->
+          <!--start footer-left-->
+          <div class="left">
+              <p>حقوق النشر 2022 - Elmawkaa, Inc. | جميع الحقوق محفوظة</p>
+          </div>
+          <!--end footer-left-->
+      </div>
+  </footer>
       <script src="js/script.js"></script>
     </body>
   </html>
