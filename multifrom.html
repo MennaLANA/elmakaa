@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="الموقع هو سوق اونلاين يساعدك على شراء ادوات البناء فى مصر بسهولة">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>اطلب عرض سعر من منصة الموقع</title>
+    <!--website icon logo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+     <!--slider library-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--start header-->
+        <header>
+            <!--start navbar-->
+            <nav class="container">
+                <!--start nav-right-->
+                <div class="right">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <ul>
+                        <li><a href="#">مواد بناء</a></li>
+                        <li><a href="#">أحدث الطلبيات</a></li>
+                        <li><a href="#">كيف يعمل؟</a></li>
+                        <li><a href="#">سجل كمورد</a></li>
+                        <li><a href="#">المدونة</a></li>
+                        <li><a href="#">الباقات</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <!--end nav-right-->
+                <!--start nav-left-->
+                <div class="left">
+                    <a href="#" class="login"> 
+                        <i class="fa-solid fa-user"></i>
+                        تسجيل دخول
+                        <span>جديد</span>
+                    </a>
+                    <a href="#" class="place">
+                        <img src="img/egy.svg" alt="image">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                </div>
+                <!--end nav-left-->
+            </nav>
+            <!--end navbar-->
+        </header>
+        <!--end header-->
+        <!--start section content-->
+        <section class="content">
+            <div class="container">
+                <div class="box">
+                    <!--start div info-->
+                    <div class="info">
+                        <a href="#" class="top">اضغط هنا لتعرف كيف تعمل المنصة</a>
+                        <p>طلب عرض سعر</p>
+                        <h2>أسمنت معبأ</h2>
+                        <img src="img/02-fill-form.jpg" alt="image">
+                    </div>
+                    <!--start div info-->
+                    <!--start div progress-bar-->
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                        <ul class="list">
+                            <li>
+                                <a href="#" class="progress-step progress-active">
+                                    <span>1</span>
+                                    معلومات المنتج
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="progress-step">
+                                    <span>2</span>
+                                    المشروع
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="progress-step">
+                                    <span>3</span>
+                                    تفاصيل أخرى
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="progress-step">
+                                    <span>4</span>
+                                    ازاى نوصلك
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end div progress-bar-->
+                    <!--start div form-->
+                    <div class="box-body">
+                        <form action="" method="">
+                            <div class="form-step form-active">
+                                <div class="input-group">
+                                    <label for="product-name">اسم المنتج المطلوب
+                                        <span>*</span>
+                                    </label>
+                                    <select name="product-name" class="input" id="product-name">
+                                        <option readonly>اختر اسم المنتج المطلوب</option>
+                                        <option>خرسانة جاهزة</option>
+                                        <option>أسمنت معبأ</option>
+                                        <option>أسمنت سايب</option>
+                                        <option>حديد تسليح</option>
+                                        <option>طوب أحمر طفلى مفرغ</option>
+                                        <option>طوب أسمنتي مصمت</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label for="quantity">الكمية 
+                                        <span>*</span>
+                                    </label>
+                                    <input type="number" class="input" name="quantity" placeholder="ادخل الكمية" id="quantity">
+                                </div>
+                                <div class="input-group">
+                                    <label for="unit">الوحدة
+                                        <span>*</span>
+                                    </label>
+                                    <select name="unit" id="unit" class="input">
+                                        <option readonly>اختر الوحدة</option>
+                                        <option>طن</option>
+                                        <option>م3</option>
+                                        <option>طوبة</option>
+                                        <option>بلوك</option>
+                                        <option>عدد</option>
+                                        <option>م2</option>
+                                        <option>مم</option>
+                                    </select>
+                                </div>
+                                <div class="image">
+                                    <button>أضف صورة للمنتج</button>
+                                </div>
+                                <div class="input-group">
+                                    <label for="step">رتبة الأسمنت
+                                        <span>*</span>
+                                    </label>
+                                    <select id="step" class="input">
+                                        <option>42.5</option>
+                                        <option>52.5</option>
+                                        <option>32.5</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label for="type">نوع الأسمنت
+                                        <span>*</span>
+                                    </label>
+                                    <select id="type" class="input">
+                                        <option>عادى</option>
+                                        <option>مقاوم</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label for="factory">المصنع</label>
+                                    <input type="text" class="input" name="factory" id="factory">
+                                </div>
+                            </div>
+                            <div class="form-step">
+                                <div class="input-group">
+                                    <label for="place">مكان المشروع
+                                        <span>*</span>
+                                    </label>
+                                    <select name="place" class="input" id="place">
+                                        <option>6 أكتوبر - الجيزة</option>
+                                        <option>القاهرة الجديدة - التجمع - القاهرة</option>
+                                        <option>العاصمة الإدارية الجديدة - القاهرة</option>
+                                        <option>مدينة بدر - القاهرة</option>
+                                        <option>مدينة الشروق - القاهرة</option>
+                                        <option>العبور - القاهرة</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label for="address">عنوان المشروع 
+                                        <span>*</span>
+                                    </label>
+                                    <input type="address" class="input" name="address" placeholder="ادخل عنوان المشروع" id="address">
+                                </div>
+                                <div class="input-group">
+                                    <label for="round">مرحلة المشروع
+                                        <span>*</span>
+                                    </label>
+                                    <select name="unit" class="input" id="round">
+                                        <option>مرحلة التنفيذ</option>
+                                        <option>مرحلة تقديم المناقصات</option>
+                                    </select>
+                                </div>
+                                <div class="input-group">
+                                    <label for="date">عايز تنفذ الطلبية امتي؟ 
+                                        <span>*</span>
+                                    </label>
+                                    <input type="date" class="input" id="date" name="date">
+                                </div>
+                            </div>
+                            <div class="form-step">
+                                <div class="input-group">
+                                    <label for="type">طريقة الدفع 
+                                        <span>*</span>
+                                    </label>
+                                    <select id="type" class="input">
+                                        <option>كاش أو تحويل بنكى</option>
+                                        <option>اجل</option>
+                                    </select>
+                                    <p>الدفع بالآجل متاح فقط للمقاولين الذين نفذوا<br> أكثر من عمليتين وحسب شروط وموافقة المورد</p>
+                                </div>
+                                <div class="input-group">
+                                    <label for="details">تفاصيل أخرى خاصة بالطلب </label>
+                                    <textarea id="details" class="input" placeholder="تفاصيل أخرى مثل المواصفات والمقاسات والاعتمادات المطلوبة"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-step">
+                                <div class="input-group">
+                                    <label for="company">اسم شركتك ايه؟ 
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" class="input" name="company" placeholder="اسم شركتك ايه؟" id="company">
+                                </div>
+                                <div class="input-group">
+                                    <label for="user">اسم الشخص المفوض ثنائي   
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" class="input" name="user" placeholder="اسم الشخص المفوض ثنائي" id="user">
+                                </div> 
+                                <div class="input-group">
+                                    <label for="phone">رقم الموبايل المسجل عالواتساب   
+                                        <span>*</span>
+                                    </label>
+                                    <input type="phone" class="input" name="phone" placeholder=" مثال: 01012345678 " id="phone">
+                                </div>
+                                <div class="input-group">
+                                    <label for="email">ايميلك</label>
+                                    <input type="email" class="input" name="email" placeholder="مثال: mohamed@gmail.com" id="email">
+                                </div>
+                                <div class="input-group">
+                                    <input type="checkbox" name="box">
+                                    <label class="check">تذكرني على هذا الجهاز</label>
+                                </div>
+                                <div class="input-group">
+                                    <input type="checkbox" name="box">
+                                    <label class="check">تذكر المشروع</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--end div form-->
+                    <!--start div actions-->
+                    <div class="actions">
+                        <ul>
+                            <li><a href="#" class="btn prev">السابق</a></li>
+                            <li><a href="#" class="btn next">التالي</a></li>
+                        </ul>
+                    </div>
+                    <!--end div actions-->
+                </div>
+            </div>
+        </section>
+        <!--end section content-->
+        <!--start footer-->
+        <footer>
+            <div class="container">
+                <!--start footer-right-->
+                <div class="right">
+                    <p>
+                        <a href="#">احجز مكالمة</a>
+                        مع أحد خبرائنا
+                    </p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+                <!--end footer-right-->
+                <!--start footer-left-->
+                <div class="left">
+                    <p>حقوق النشر 2022 - Elmawkaa, Inc. | جميع الحقوق محفوظة</p>
+                </div>
+                <!--end footer-left-->
+            </div>
+        </footer>
+        <!--end footer-->
+        <!--font awsome js file-->
+        <script src="js/all.min.js"></script>
+        <!--js file-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
